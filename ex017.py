@@ -5,9 +5,9 @@ import math
 
 num = random.uniform(0, 999.9)
 
-print(num)
+print('O número gerado pelo Random é:',num)
 
-print('O número inteiro gerado é:', math.floor(num))
+print('Sua porção inteira convertida pelo método Math é:', math.floor(num))
 
 
 
