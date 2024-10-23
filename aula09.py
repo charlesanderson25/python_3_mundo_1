@@ -45,3 +45,5 @@ print(frase.rstrip()) # remove os espaços inúteis à direita
 print(frase.lstrip()) # remove os espaços inúteis à esquerda
 
 print(frase.split()) # divide a string
+
+print('-'.join(frase)) #juntar as strings com traço
