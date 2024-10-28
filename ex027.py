@@ -2,18 +2,21 @@
 
 frase = str(input('Informe uma frase qualquer:'))
 
+contagemDoA = str(input('Informe a string que deseja verificar:'))
+
 fraseMinuscula = str(frase.lower())
 
 print('Estão minúsculas? {}'.format(fraseMinuscula))
 
 verificaLetraA = fraseMinuscula.find('a')
 
-print(verificaLetraA)
+print('A primeira vez que a letra _a_ aparece é na posição: {}'.format(verificaLetraA))
 
-divideFrase = str(fraseMinuscula.split())
+qtdRepeticao = str(fraseMinuscula.count(contagemDoA))
 
-print(divideFrase)
+print('A quantidade de vezes que a string _a_ se repete é:{}'.format(qtdRepeticao))
 
-verificaLetraA1 = str(divideFrase.split([0]))
+verificaUltimaPosicao = fraseMinuscula.rfind('a')
 
-print(verificaLetraA1)
+print('A última vez que a letra _a_ aparece é na posição: {}'.format(verificaUltimaPosicao))
+
